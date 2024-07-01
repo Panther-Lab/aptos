@@ -1,0 +1,31 @@
+[package]
+name = "panther_labs"
+version = "1.0.0"
+authors = []
+
+[addresses]
+panther='f31494fcc3000d47a604f9f0ca53e6f20ff27b8e877cbcfe5553447ab61e61df'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosTokenObjects]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-token-objects'
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+[dev-dependencies]
